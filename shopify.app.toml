@@ -1,0 +1,13 @@
+name = "GeoTarget Pro"
+client_id = "${SHOPIFY_API_KEY}"
+application_url = "${SHOPIFY_APP_URL}"
+embedded = true
+
+[access_scopes]
+scopes = "write_products,read_products"
+
+[auth]
+redirect_urls = ["${SHOPIFY_APP_URL}/auth/callback", "${SHOPIFY_APP_URL}/auth/shopify/callback"]
+
+[webhooks]
+api_version = "2025-01"
