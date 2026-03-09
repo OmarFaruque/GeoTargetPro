@@ -1,0 +1,11 @@
+{
+  "name": "geotarget-pro",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Country-based product visibility control for Shopify",
+  "scripts": {
+    "dev": "node --watch src/server.mjs",
+    "start": "node src/server.mjs",
+    "check": "node --test"
+  }
+}
